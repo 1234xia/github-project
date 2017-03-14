@@ -1,0 +1,188 @@
+.all{
+	margin:0 auto;
+	width:1010px;
+}
+header{
+	padding-top:20px;
+	width:100%;
+	height:100px;
+	/*border:1px red solid;*/
+}
+header>a:nth-child(2),header>a:nth-child(3),header>a:nth-child(4){
+	float:right;
+	line-height: 80px;
+}
+header>span{
+	float:right;
+	line-height: 80px;
+}
+
+
+section .box{
+	position: relative;
+	margin:0 auto;
+	width:340px;
+	/*height:375px;*/
+	/*border:1px yellow solid;*/
+}
+section .box>a{
+	font-size: 20px;
+}
+
+section .box>form>div{
+	/*margin-/top: 20px;*/
+	width:340px;
+	height:50px;
+	border:1px #dadada solid;
+}
+section .box>form>div:nth-child(1){
+	margin-top: 35px;
+}
+section .box>form input[type="text"],input[type="password"]{
+	color:#333;
+}
+/*错误信息提醒*/
+section .box>form>span{
+	display: block;
+	width:340px;
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	color:red;
+}
+.myerror{
+	color:red;
+}
+
+/*手机号码和验证码的样式*/
+section .box>form>.phonebox>.phone-area{
+	padding-left:10px;
+	width:50px;
+	height:100%;
+	border:none;
+	border-right:1px #dadada solid;
+	line-height: 50px;
+	float: left;
+}
+section .box>form>div{
+	position: relative;
+}
+section .box>form>.phonebox>.phone-area-box{
+	position: absolute;
+	z-index: 1;
+	top:50px;
+	margin-left: -1px;
+	width:340px;
+	height:210px;
+	overflow: scroll;
+	border:1px #dadada solid;
+	background-color: #fff;
+	display:none;
+}
+section .box>form>.phonebox>.phone-area-box>ul>li{
+	padding:0 10px;
+	width:303px;
+	height:200%;
+	line-height: 26px;
+	font-size: 16px;
+	color:#111;
+}
+section .box>form>.phonebox>.phone-area-box>ul>li>span{
+	font-size: 16px;
+	float:right;
+}
+section .box>form>.phonebox>.phone-area-box>ul>li:nth-child(1){
+	background-color: #f9f9f9;
+}
+section .box>form>.phonebox>.phone-area-box>ul>li:hover{
+	background-color: #eee;
+}
+
+
+section .box>form>.codebox{
+	position: relative;
+}
+section .box>form>.codebox>input{
+	padding:0 10px;
+	width:240px;
+	height:48px;
+	border:none;
+	font-size: 16px;
+	float:left;
+}
+section .box>form>.codebox>span{
+	position: absolute;
+	top:5px;
+	right:0;
+	padding:0 10px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    border-left: 1px solid #dadada;
+}
+section .box>form>.codebox>span>a{
+    font-size: 16px;
+	color: #00a7ea;
+}
+
+/*底部样式*/
+footer{
+	position: absolute;
+	left:0;
+	padding:40px 169px;
+	width:1010px;
+	height:50px;
+	border-top:1px #E5E6E7 solid; 
+}
+footer>ul>li{
+	float: left;
+}
+footer>ul>li:nth-child(even){
+	color:#ccc;
+	padding:0 10px;
+}
+footer>span{
+	margin-left: 50px;
+}
+footer>a{
+	margin-left: 30px;
+	display: inline-block;
+	width:64px;
+	height:20px;
+	background-color: #32a5e7;
+	color:#fff;
+	text-align: center;
+	line-height: 20px;
+}
+footer>a:hover{
+	color:#fff;
+}
+footer>.footer-msg2{
+	position: absolute;
+	right:170px;
+	bottom:60px;
+}
+footer>.footer-msg2>a>img{
+	margin-left: 20px;
+	width:30px;
+	height: 30px;
+}
+footer>.footer-msg2>a:nth-child(3)>img{
+	margin-left: 18px;
+	width:33px;
+	height: 33px;
+}
+footer>.footer-msg2>img{
+	position: absolute;
+	top:-276px;
+	right:-80px;
+	display:none;
+}
+
+footer>.footer-msg3{
+	margin-top: 15px;
+	font-size: 12px;
+}
+footer>.footer-msg3>a:hover{
+	color: #00c3f5;
+}

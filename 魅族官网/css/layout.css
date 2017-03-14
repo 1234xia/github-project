@@ -1,0 +1,20 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	color:#333;
+	font-family: "/5FAE/8F6F/96C5/9ED1","Microsoft Yahei",Arial,Helvetica,sans-serif,"/5B8B/4F53";
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:#666;
+}
+a:hover{
+	color:#00c3f5;
+}
+input,button{
+	outline-style: none;
+}
